@@ -186,6 +186,7 @@ out["india"] = india
 def hist(ticker, period="1y"):
     h = yf.Ticker(ticker).history(period=period, auto_adjust=False)
     h = h.dropna(subset=["Close"])
+    h = h[[d.weekday() < 5 for d in h.index]]  # drop weekend FX ticks
     if h.empty:
         raise RuntimeError("no data")
     return h
@@ -226,6 +227,10 @@ out["fx"] = grab("fx", {
     "USD/INR": "INR=X", "EUR/INR": "EURINR=X", "GBP/INR": "GBPINR=X",
     "JPY/INR": "JPYINR=X", "CNY/INR": "CNYINR=X", "USD/JPY": "JPY=X",
     "USD/KRW": "KRW=X", "USD/TWD": "TWD=X", "USD/CNY": "CNY=X", "EUR/USD": "EURUSD=X"}, with_52w)
+if "CNY/INR" not in out["fx"] and "USD/INR" in out["fx"] and "USD/CNY" in out["fx"]:
+    u, c = out["fx"]["USD/INR"], out["fx"]["USD/CNY"]
+    out["fx"]["CNY/INR"] = {"close": r2(u["close"] / c["close"], 4), "date": u["date"],
+                            "note": "derived as USD/INR / USD/CNY (Yahoo has no direct CNYINR series)"}
 if "JPY/INR" in out["fx"]:
     out["fx"]["JPY/INR"]["note"] = "per 1 yen; multiply by 100 for the brief's per-100 tile"
 
