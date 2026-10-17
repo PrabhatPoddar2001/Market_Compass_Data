@@ -28,8 +28,12 @@ jobs:
 
       - name: Save data.json
         run: |
+          cp data.json /tmp/data.json
           git config user.name  "market-data-bot"
           git config user.email "market-data-bot@users.noreply.github.com"
+          git fetch origin main
+          git checkout -B main origin/main
+          cp /tmp/data.json data.json
           git add data.json
           git commit -m "Market data $(date -u +%F)" || echo "No changes"
-          git push
+          git push origin main
