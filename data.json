@@ -1,7 +1,7 @@
 {
- "generated_at_ist": "2026-10-17 16:02",
+ "generated_at_ist": "2026-10-17 16:54",
  "errors": [
-  "fx CNY/INR (CNYINR=X): IndexError: single positional indexer is out-of-bounds"
+  "fx CNY/INR (CNYINR=X): RuntimeError: no data"
  ],
  "india": {
   "session": "2026-10-16",
@@ -419,28 +419,28 @@
  "fx": {
   "USD/INR": {
    "ticker": "INR=X",
-   "close": 94.96,
-   "date": "2026-10-17",
-   "prev_close": 94.5248,
-   "pct_chg": 0.46,
+   "close": 94.5248,
+   "date": "2026-10-16",
+   "prev_close": 95.1513,
+   "pct_chg": -0.66,
    "low_52w_close": 87.7403,
    "high_52w_close": 96.8769
   },
   "EUR/INR": {
    "ticker": "EURINR=X",
-   "close": 106.7066,
-   "date": "2026-10-17",
-   "prev_close": 106.514,
-   "pct_chg": 0.18,
+   "close": 106.514,
+   "date": "2026-10-16",
+   "prev_close": 106.445,
+   "pct_chg": 0.06,
    "low_52w_close": 101.656,
    "high_52w_close": 112.486
   },
   "GBP/INR": {
    "ticker": "GBPINR=X",
-   "close": 126.5627,
-   "date": "2026-10-17",
-   "prev_close": 125.4517,
-   "pct_chg": 0.89,
+   "close": 125.4517,
+   "date": "2026-10-16",
+   "prev_close": 125.8495,
+   "pct_chg": -0.32,
    "low_52w_close": 115.5451,
    "high_52w_close": 130.5909
   },
@@ -465,29 +465,29 @@
   },
   "USD/KRW": {
    "ticker": "KRW=X",
-   "close": 1329.6,
-   "date": "2026-10-17",
-   "prev_close": 1340.95,
-   "pct_chg": -0.85,
-   "low_52w_close": 1329.6,
+   "close": 1340.95,
+   "date": "2026-10-16",
+   "prev_close": 1339.35,
+   "pct_chg": 0.12,
+   "low_52w_close": 1334.13,
    "high_52w_close": 1554.48
   },
   "USD/TWD": {
    "ticker": "TWD=X",
-   "close": 32.428,
-   "date": "2026-10-17",
-   "prev_close": 32.3269,
-   "pct_chg": 0.31,
+   "close": 32.3269,
+   "date": "2026-10-16",
+   "prev_close": 32.1899,
+   "pct_chg": 0.43,
    "low_52w_close": 30.5431,
-   "high_52w_close": 32.428
+   "high_52w_close": 32.396
   },
   "USD/CNY": {
    "ticker": "CNY=X",
-   "close": 6.6862,
-   "date": "2026-10-17",
-   "prev_close": 6.6909,
-   "pct_chg": -0.07,
-   "low_52w_close": 6.6862,
+   "close": 6.6909,
+   "date": "2026-10-16",
+   "prev_close": 6.6926,
+   "pct_chg": -0.03,
+   "low_52w_close": 6.6909,
    "high_52w_close": 7.1718
   },
   "EUR/USD": {
@@ -498,6 +498,11 @@
    "pct_chg": 0.43,
    "low_52w_close": 1.116,
    "high_52w_close": 1.2018
+  },
+  "CNY/INR": {
+   "close": 14.1274,
+   "date": "2026-10-16",
+   "note": "derived as USD/INR / USD/CNY (Yahoo has no direct CNYINR series)"
   }
  },
  "commodities": {
@@ -640,7 +645,7 @@
    "date": "2026-10-16",
    "prev_close": 210000.0,
    "pct_chg": 2.62,
-   "market_cap_usd_bn": 1055.4
+   "market_cap_usd_bn": 1046.5
   },
   "Intel": {
    "ticker": "INTC",
@@ -648,7 +653,7 @@
    "date": "2026-10-16",
    "prev_close": 95.37,
    "pct_chg": -5.79,
-   "market_cap_usd_bn": 475.0
+   "market_cap_usd_bn": 472.1
   },
   "Micron": {
    "ticker": "MU",
@@ -664,7 +669,7 @@
    "date": "2026-10-16",
    "prev_close": 1262000.0,
    "pct_chg": 0.79,
-   "market_cap_usd_bn": 697.3
+   "market_cap_usd_bn": 691.4
   },
   "ASML": {
    "ticker": "ASML",
