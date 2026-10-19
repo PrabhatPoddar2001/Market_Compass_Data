@@ -1,7 +1,7 @@
 {
- "generated_at_ist": "2026-10-17 16:54",
+ "generated_at_ist": "2026-10-19 08:49",
  "errors": [
-  "fx CNY/INR (CNYINR=X): RuntimeError: no data"
+  "fx CNY/INR (CNYINR=X): IndexError: single positional indexer is out-of-bounds"
  ],
  "india": {
   "session": "2026-10-16",
@@ -375,31 +375,31 @@
   },
   "Nikkei 225": {
    "ticker": "^N225",
-   "close": 65324.2891,
-   "date": "2026-10-16",
-   "prev_close": 64425.9492,
-   "pct_chg": 1.39
+   "close": 64534.0312,
+   "date": "2026-10-19",
+   "prev_close": 65324.2891,
+   "pct_chg": -1.21
   },
   "KOSPI": {
    "ticker": "^KS11",
-   "close": 5668.0498,
-   "date": "2026-10-16",
-   "prev_close": 5554.2202,
-   "pct_chg": 2.05
+   "close": 5674.6299,
+   "date": "2026-10-19",
+   "prev_close": 5668.0498,
+   "pct_chg": 0.12
   },
   "TAIEX": {
    "ticker": "^TWII",
-   "close": 47111.2617,
-   "date": "2026-10-16",
-   "prev_close": 46969.8711,
-   "pct_chg": 0.3
+   "close": 46467.3281,
+   "date": "2026-10-19",
+   "prev_close": 47111.2617,
+   "pct_chg": -1.37
   },
   "Shanghai Composite": {
    "ticker": "000001.SS",
-   "close": 3716.2839,
-   "date": "2026-10-16",
-   "prev_close": 3707.4761,
-   "pct_chg": 0.24
+   "close": 3728.552,
+   "date": "2026-10-19",
+   "prev_close": 3716.2839,
+   "pct_chg": 0.33
   },
   "DAX": {
    "ticker": "^GDAXI",
@@ -419,89 +419,89 @@
  "fx": {
   "USD/INR": {
    "ticker": "INR=X",
-   "close": 94.5248,
-   "date": "2026-10-16",
-   "prev_close": 95.1513,
-   "pct_chg": -0.66,
+   "close": 94.95,
+   "date": "2026-10-19",
+   "prev_close": 94.5248,
+   "pct_chg": 0.45,
    "low_52w_close": 87.7403,
    "high_52w_close": 96.8769
   },
   "EUR/INR": {
    "ticker": "EURINR=X",
-   "close": 106.514,
-   "date": "2026-10-16",
-   "prev_close": 106.445,
-   "pct_chg": 0.06,
+   "close": 106.6015,
+   "date": "2026-10-19",
+   "prev_close": 106.514,
+   "pct_chg": 0.08,
    "low_52w_close": 101.656,
    "high_52w_close": 112.486
   },
   "GBP/INR": {
    "ticker": "GBPINR=X",
-   "close": 125.4517,
-   "date": "2026-10-16",
-   "prev_close": 125.8495,
-   "pct_chg": -0.32,
+   "close": 126.518,
+   "date": "2026-10-19",
+   "prev_close": 125.4517,
+   "pct_chg": 0.85,
    "low_52w_close": 115.5451,
    "high_52w_close": 130.5909
   },
   "JPY/INR": {
    "ticker": "JPYINR=X",
    "close": 0.6009,
-   "date": "2026-10-16",
-   "prev_close": 0.6019,
-   "pct_chg": -0.17,
+   "date": "2026-10-19",
+   "prev_close": 0.6006,
+   "pct_chg": 0.05,
    "low_52w_close": 0.5627,
    "high_52w_close": 0.6187,
    "note": "per 1 yen; multiply by 100 for the brief's per-100 tile"
   },
   "USD/JPY": {
    "ticker": "JPY=X",
-   "close": 157.987,
-   "date": "2026-10-16",
-   "prev_close": 157.957,
-   "pct_chg": 0.02,
-   "low_52w_close": 150.12,
+   "close": 158.029,
+   "date": "2026-10-19",
+   "prev_close": 158.143,
+   "pct_chg": -0.07,
+   "low_52w_close": 150.774,
    "high_52w_close": 163.864
   },
   "USD/KRW": {
    "ticker": "KRW=X",
-   "close": 1340.95,
-   "date": "2026-10-16",
-   "prev_close": 1339.35,
-   "pct_chg": 0.12,
-   "low_52w_close": 1334.13,
+   "close": 1331.9301,
+   "date": "2026-10-19",
+   "prev_close": 1340.95,
+   "pct_chg": -0.67,
+   "low_52w_close": 1331.9301,
    "high_52w_close": 1554.48
   },
   "USD/TWD": {
    "ticker": "TWD=X",
-   "close": 32.3269,
-   "date": "2026-10-16",
-   "prev_close": 32.1899,
-   "pct_chg": 0.43,
+   "close": 32.494,
+   "date": "2026-10-19",
+   "prev_close": 32.3269,
+   "pct_chg": 0.52,
    "low_52w_close": 30.5431,
-   "high_52w_close": 32.396
+   "high_52w_close": 32.494
   },
   "USD/CNY": {
    "ticker": "CNY=X",
-   "close": 6.6909,
-   "date": "2026-10-16",
-   "prev_close": 6.6926,
-   "pct_chg": -0.03,
-   "low_52w_close": 6.6909,
+   "close": 6.6812,
+   "date": "2026-10-19",
+   "prev_close": 6.6909,
+   "pct_chg": -0.14,
+   "low_52w_close": 6.6812,
    "high_52w_close": 7.1718
   },
   "EUR/USD": {
    "ticker": "EURUSD=X",
-   "close": 1.1244,
-   "date": "2026-10-16",
-   "prev_close": 1.1195,
-   "pct_chg": 0.43,
+   "close": 1.1231,
+   "date": "2026-10-19",
+   "prev_close": 1.1213,
+   "pct_chg": 0.16,
    "low_52w_close": 1.116,
    "high_52w_close": 1.2018
   },
   "CNY/INR": {
-   "close": 14.1274,
-   "date": "2026-10-16",
+   "close": 14.2115,
+   "date": "2026-10-19",
    "note": "derived as USD/INR / USD/CNY (Yahoo has no direct CNYINR series)"
   }
  },
@@ -641,11 +641,11 @@
   },
   "Samsung Electronics": {
    "ticker": "005930.KS",
-   "close": 215500.0,
-   "date": "2026-10-16",
-   "prev_close": 210000.0,
-   "pct_chg": 2.62,
-   "market_cap_usd_bn": 1046.5
+   "close": 216250.0,
+   "date": "2026-10-19",
+   "prev_close": 215500.0,
+   "pct_chg": 0.35,
+   "market_cap_usd_bn": 1057.3
   },
   "Intel": {
    "ticker": "INTC",
@@ -665,11 +665,11 @@
   },
   "SK Hynix": {
    "ticker": "000660.KS",
-   "close": 1272000.0,
-   "date": "2026-10-16",
-   "prev_close": 1262000.0,
-   "pct_chg": 0.79,
-   "market_cap_usd_bn": 691.4
+   "close": 1251000.0,
+   "date": "2026-10-19",
+   "prev_close": 1272000.0,
+   "pct_chg": -1.65,
+   "market_cap_usd_bn": 684.6
   },
   "ASML": {
    "ticker": "ASML",
@@ -677,7 +677,7 @@
    "date": "2026-10-16",
    "prev_close": 1657.4399,
    "pct_chg": -0.96,
-   "market_cap_usd_bn": 630.5
+   "market_cap_usd_bn": 632.7
   },
   "Lam Research": {
    "ticker": "LRCX",
