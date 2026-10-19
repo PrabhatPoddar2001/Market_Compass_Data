@@ -188,9 +188,16 @@ def hist(ticker, period="1y"):
     h = yf.Ticker(ticker).history(period=period, auto_adjust=False)
     h = h.dropna(subset=["Close"])
     if ticker.endswith("=X"):
-        # Yahoo stamps each daily FX bar one day late (the bar dated Tuesday holds
-        # Monday's close), so move FX dates back a day before dropping weekends.
-        h.index = h.index - pd.Timedelta(days=1)
+        # Yahoo stamps each daily FX bar one day late: the bar dated Tuesday holds
+        # Monday's close, and Friday's close sits in the bar dated Saturday or
+        # Monday. Move every FX bar to the previous weekday and keep the latest.
+        def prev_weekday(ts):
+            d = ts - pd.Timedelta(days=1)
+            while d.weekday() >= 5:
+                d -= pd.Timedelta(days=1)
+            return d
+        h.index = pd.DatetimeIndex([prev_weekday(t) for t in h.index])
+        h = h[~h.index.duplicated(keep="last")]
     h = h[[d.weekday() < 5 for d in h.index]]  # drop weekend FX ticks
     if h.empty:
         raise RuntimeError("no data")
