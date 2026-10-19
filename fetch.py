@@ -22,6 +22,7 @@ import statistics
 from datetime import date, datetime, timedelta, timezone
 
 import requests
+import pandas as pd
 import yfinance as yf
 
 IST = timezone(timedelta(hours=5, minutes=30))
@@ -186,6 +187,10 @@ out["india"] = india
 def hist(ticker, period="1y"):
     h = yf.Ticker(ticker).history(period=period, auto_adjust=False)
     h = h.dropna(subset=["Close"])
+    if ticker.endswith("=X"):
+        # Yahoo stamps each daily FX bar one day late (the bar dated Tuesday holds
+        # Monday's close), so move FX dates back a day before dropping weekends.
+        h.index = h.index - pd.Timedelta(days=1)
     h = h[[d.weekday() < 5 for d in h.index]]  # drop weekend FX ticks
     if h.empty:
         raise RuntimeError("no data")
@@ -304,6 +309,31 @@ for name, t in AI.items():
     except Exception as e:
         err(f"AI {name} ({t})", e)
 out["ai_market_caps"] = ai
+
+# ---------- Daily history for the S&P 500 / Sensex rupee-dollar chart ----------
+# Rolling 12 months plus a margin: one row per weekday when either market traded;
+# a market that was shut carries its last close forward.
+try:
+    s = hist("^GSPC", "13mo")["Close"]
+    x = hist("^BSESN", "13mo")["Close"]
+    r = hist("INR=X", "13mo")["Close"]
+    def by_day(ser):
+        d = {}
+        for k, v in ser.items():
+            d[k.date()] = float(v)
+        return d
+    s, x, r = by_day(s), by_day(x), by_day(r)
+    days = sorted(set(s) | set(x))
+    rows, ls, lx, lr = [], None, None, None
+    for d in days:
+        ls, lx, lr = s.get(d, ls), x.get(d, lx), r.get(d, lr)
+        if None not in (ls, lx, lr):
+            rows.append([d.isoformat(), r2(ls), r2(lx), r2(lr, 4)])
+    out["spinr_history"] = {"columns": ["date", "sp500", "sensex", "usdinr"],
+                            "source": "Yahoo Finance daily closes (^GSPC, ^BSESN, INR=X)",
+                            "rows": rows}
+except Exception as e:
+    err("spinr_history", e)
 
 with open("data.json", "w") as fh:
     json.dump(out, fh, indent=1, default=str)
