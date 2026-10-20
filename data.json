@@ -1,583 +1,583 @@
 {
- "generated_at_ist": "2026-10-19 09:13",
+ "generated_at_ist": "2026-10-20 08:49",
  "errors": [
   "fx CNY/INR (CNYINR=X): IndexError: single positional indexer is out-of-bounds"
  ],
  "india": {
-  "session": "2026-10-16",
-  "window_3m_start": "2026-07-16",
-  "window_6m_start": "2026-04-16",
+  "session": "2026-10-19",
+  "window_3m_start": "2026-07-17",
+  "window_6m_start": "2026-04-17",
   "indices": {
    "Nifty 50": {
-    "close": 23146.15,
-    "pts_chg": 148.8,
-    "pct_chg": 0.65,
-    "high": 23149.85,
-    "low": 22913.8,
-    "pe": 19.77,
-    "pb": 2.84,
-    "close_3m_ago": 24072.75,
-    "close_6m_ago": 24196.75,
-    "ret_3m_pct": -3.85,
-    "ret_prev_3m_pct": -0.51
+    "close": 22888.95,
+    "pts_chg": -257.2,
+    "pct_chg": -1.11,
+    "high": 23175.25,
+    "low": 22845.0,
+    "pe": 19.33,
+    "pb": 2.81,
+    "close_3m_ago": 24334.3,
+    "close_6m_ago": 24353.55,
+    "ret_3m_pct": -5.94,
+    "ret_prev_3m_pct": -0.08
    },
    "Nifty Bank": {
-    "close": 55844.0,
-    "pts_chg": 33.5,
-    "pct_chg": 0.06,
-    "high": 55989.55,
-    "low": 55526.3,
-    "pe": 13.21,
-    "pb": 1.68,
-    "close_3m_ago": 57582.25,
-    "close_6m_ago": 56086.4,
-    "ret_3m_pct": -3.02,
-    "ret_prev_3m_pct": 2.67
+    "close": 55488.1,
+    "pts_chg": -355.9,
+    "pct_chg": -0.64,
+    "high": 55883.7,
+    "low": 55331.1,
+    "pe": 12.82,
+    "pb": 1.67,
+    "close_3m_ago": 58521.4,
+    "close_6m_ago": 56565.7,
+    "ret_3m_pct": -5.18,
+    "ret_prev_3m_pct": 3.46
    },
    "NIFTY Midcap 100": {
-    "close": 59129.75,
-    "pts_chg": -67.5,
-    "pct_chg": -0.11,
-    "high": 59302.15,
-    "low": 58775.9,
-    "pe": 27.77,
-    "pb": 3.76,
-    "close_3m_ago": 62686.75,
-    "close_6m_ago": 59146.75,
-    "ret_3m_pct": -5.67,
-    "ret_prev_3m_pct": 5.99
+    "close": 58487.95,
+    "pts_chg": -641.8,
+    "pct_chg": -1.09,
+    "high": 59197.55,
+    "low": 58377.4,
+    "pe": 27.35,
+    "pb": 3.72,
+    "close_3m_ago": 62428.05,
+    "close_6m_ago": 59898.2,
+    "ret_3m_pct": -6.31,
+    "ret_prev_3m_pct": 4.22
    },
    "NIFTY Midcap 150": {
-    "close": 21736.75,
-    "pts_chg": -19.6,
-    "pct_chg": -0.09,
-    "high": 21790.5,
-    "low": 21609.9,
-    "pe": 28.12,
-    "pb": 3.81,
-    "close_3m_ago": 23060.05,
-    "close_6m_ago": 21780.5,
-    "ret_3m_pct": -5.74,
-    "ret_prev_3m_pct": 5.87
+    "close": 21499.3,
+    "pts_chg": -237.45,
+    "pct_chg": -1.09,
+    "high": 21756.0,
+    "low": 21462.3,
+    "pe": 27.71,
+    "pb": 3.77,
+    "close_3m_ago": 22967.9,
+    "close_6m_ago": 22045.2,
+    "ret_3m_pct": -6.39,
+    "ret_prev_3m_pct": 4.19
    },
    "NIFTY Smallcap 100": {
-    "close": 19129.8,
-    "pts_chg": -1.9,
-    "pct_chg": -0.01,
-    "high": 19194.95,
-    "low": 19069.85,
-    "pe": 36.49,
-    "pb": 3.71,
-    "close_3m_ago": 19336.25,
-    "close_6m_ago": 17308.85,
-    "ret_3m_pct": -1.07,
-    "ret_prev_3m_pct": 11.71
+    "close": 18935.75,
+    "pts_chg": -194.05,
+    "pct_chg": -1.01,
+    "high": 19148.65,
+    "low": 18913.6,
+    "pe": 36.18,
+    "pb": 3.67,
+    "close_3m_ago": 19296.3,
+    "close_6m_ago": 17565.7,
+    "ret_3m_pct": -1.87,
+    "ret_prev_3m_pct": 9.85
    },
    "NIFTY Smallcap 250": {
-    "close": 17637.65,
-    "pts_chg": 10.6,
-    "pct_chg": 0.06,
-    "high": 17692.6,
-    "low": 17557.3,
-    "pe": 33.68,
-    "pb": 3.39,
-    "close_3m_ago": 18109.05,
-    "close_6m_ago": 16199.25,
-    "ret_3m_pct": -2.6,
-    "ret_prev_3m_pct": 11.79
+    "close": 17435.15,
+    "pts_chg": -202.5,
+    "pct_chg": -1.15,
+    "high": 17639.45,
+    "low": 17412.7,
+    "pe": 33.26,
+    "pb": 3.35,
+    "close_3m_ago": 18003.5,
+    "close_6m_ago": 16439.25,
+    "ret_3m_pct": -3.16,
+    "ret_prev_3m_pct": 9.52
    },
    "India VIX": {
-    "close": 14.06,
-    "pts_chg": 0.04,
-    "pct_chg": 0.27,
-    "high": 14.5175,
-    "low": 12.79,
+    "close": 14.77,
+    "pts_chg": 0.71,
+    "pct_chg": 5.05,
+    "high": 14.9725,
+    "low": 13.3175,
     "pe": null,
     "pb": null,
-    "close_3m_ago": 12.88,
-    "close_6m_ago": 18.09,
-    "ret_3m_pct": 9.16,
-    "ret_prev_3m_pct": -28.8
+    "close_3m_ago": 13.15,
+    "close_6m_ago": 17.21,
+    "ret_3m_pct": 12.32,
+    "ret_prev_3m_pct": -23.59
    },
    "Nifty IT": {
-    "close": 31924.1,
-    "pts_chg": 1204.3,
-    "pct_chg": 3.92,
-    "high": 32015.65,
-    "low": 30904.1,
-    "pe": 19.75,
-    "pb": 5.59,
-    "close_3m_ago": 28722.6,
-    "close_6m_ago": 31817.5,
-    "ret_3m_pct": 11.15,
-    "ret_prev_3m_pct": -9.73
+    "close": 31516.3,
+    "pts_chg": -407.8,
+    "pct_chg": -1.28,
+    "high": 32034.4,
+    "low": 31377.75,
+    "pe": 19.5,
+    "pb": 5.52,
+    "close_3m_ago": 29226.6,
+    "close_6m_ago": 31809.85,
+    "ret_3m_pct": 7.83,
+    "ret_prev_3m_pct": -8.12
    },
    "Nifty Media": {
-    "close": 1648.25,
-    "pts_chg": 31.05,
-    "pct_chg": 1.92,
-    "high": 1651.55,
-    "low": 1619.8,
-    "pe": 43.57,
-    "pb": 1.79,
-    "close_3m_ago": 1521.4,
-    "close_6m_ago": 1397.9,
-    "ret_3m_pct": 8.34,
-    "ret_prev_3m_pct": 8.83
+    "close": 1643.9,
+    "pts_chg": -4.35,
+    "pct_chg": -0.26,
+    "high": 1654.75,
+    "low": 1639.85,
+    "pe": 43.45,
+    "pb": 1.78,
+    "close_3m_ago": 1521.45,
+    "close_6m_ago": 1416.6,
+    "ret_3m_pct": 8.05,
+    "ret_prev_3m_pct": 7.4
    },
    "Nifty Pharma": {
-    "close": 25781.65,
-    "pts_chg": -36.15,
-    "pct_chg": -0.14,
-    "high": 25931.45,
-    "low": 25636.6,
-    "pe": 39.88,
-    "pb": 4.85,
-    "close_3m_ago": 26008.05,
-    "close_6m_ago": 22465.0,
-    "ret_3m_pct": -0.87,
-    "ret_prev_3m_pct": 15.77
+    "close": 25615.0,
+    "pts_chg": -166.65,
+    "pct_chg": -0.65,
+    "high": 26020.45,
+    "low": 25565.4,
+    "pe": 39.62,
+    "pb": 4.82,
+    "close_3m_ago": 25645.0,
+    "close_6m_ago": 22497.25,
+    "ret_3m_pct": -0.12,
+    "ret_prev_3m_pct": 13.99
    },
    "Nifty Private Bank": {
-    "close": 27700.55,
-    "pts_chg": 21.25,
-    "pct_chg": 0.08,
-    "high": 27768.35,
-    "low": 27520.2,
-    "pe": 17.09,
-    "pb": 1.99,
-    "close_3m_ago": 27915.6,
-    "close_6m_ago": 26877.4,
-    "ret_3m_pct": -0.77,
-    "ret_prev_3m_pct": 3.86
+    "close": 27189.1,
+    "pts_chg": -511.45,
+    "pct_chg": -1.85,
+    "high": 27587.05,
+    "low": 27119.6,
+    "pe": 16.15,
+    "pb": 1.95,
+    "close_3m_ago": 28508.5,
+    "close_6m_ago": 27087.45,
+    "ret_3m_pct": -4.63,
+    "ret_prev_3m_pct": 5.25
    },
    "Nifty Healthcare Index": {
-    "close": 15683.55,
-    "pts_chg": -40.85,
-    "pct_chg": -0.26,
-    "high": 15766.3,
-    "low": 15594.75,
-    "pe": 40.83,
-    "pb": 5.18,
-    "close_3m_ago": 16493.75,
-    "close_6m_ago": 14434.95,
-    "ret_3m_pct": -4.91,
-    "ret_prev_3m_pct": 14.26
+    "close": 15557.6,
+    "pts_chg": -125.95,
+    "pct_chg": -0.8,
+    "high": 15811.25,
+    "low": 15527.65,
+    "pe": 40.51,
+    "pb": 5.14,
+    "close_3m_ago": 16282.9,
+    "close_6m_ago": 14494.45,
+    "ret_3m_pct": -4.45,
+    "ret_prev_3m_pct": 12.34
    },
    "Nifty Auto": {
-    "close": 25768.5,
-    "pts_chg": 192.1,
-    "pct_chg": 0.75,
-    "high": 25810.55,
-    "low": 25430.3,
-    "pe": 29.95,
-    "pb": 4.03,
-    "close_3m_ago": 26767.55,
-    "close_6m_ago": 26382.75,
-    "ret_3m_pct": -3.73,
-    "ret_prev_3m_pct": 1.46
+    "close": 25591.25,
+    "pts_chg": -177.25,
+    "pct_chg": -0.69,
+    "high": 25899.1,
+    "low": 25531.7,
+    "pe": 29.74,
+    "pb": 4.0,
+    "close_3m_ago": 27099.75,
+    "close_6m_ago": 26435.0,
+    "ret_3m_pct": -5.57,
+    "ret_prev_3m_pct": 2.51
    },
    "Nifty PSU Bank": {
-    "close": 8094.95,
-    "pts_chg": 53.75,
-    "pct_chg": 0.67,
-    "high": 8120.7,
-    "low": 8019.15,
-    "pe": 7.25,
-    "pb": 1.12,
-    "close_3m_ago": 8347.9,
-    "close_6m_ago": 8797.6,
-    "ret_3m_pct": -3.03,
-    "ret_prev_3m_pct": -5.11
+    "close": 8294.1,
+    "pts_chg": 199.15,
+    "pct_chg": 2.46,
+    "high": 8320.75,
+    "low": 8146.9,
+    "pe": 7.38,
+    "pb": 1.15,
+    "close_3m_ago": 8381.75,
+    "close_6m_ago": 8862.9,
+    "ret_3m_pct": -1.05,
+    "ret_prev_3m_pct": -5.43
    },
    "Nifty Metal": {
-    "close": 12133.2,
-    "pts_chg": 114.7,
-    "pct_chg": 0.95,
-    "high": 12197.85,
-    "low": 11995.05,
-    "pe": 15.91,
-    "pb": 2.58,
-    "close_3m_ago": 12495.9,
-    "close_6m_ago": 12740.2,
-    "ret_3m_pct": -2.9,
-    "ret_prev_3m_pct": -1.92
+    "close": 12066.4,
+    "pts_chg": -66.8,
+    "pct_chg": -0.55,
+    "high": 12196.05,
+    "low": 12021.0,
+    "pe": 15.83,
+    "pb": 2.57,
+    "close_3m_ago": 12436.95,
+    "close_6m_ago": 12880.0,
+    "ret_3m_pct": -2.98,
+    "ret_prev_3m_pct": -3.44
    },
    "Nifty Financial Services": {
-    "close": 25387.1,
-    "pts_chg": 22.9,
-    "pct_chg": 0.09,
-    "high": 25429.85,
-    "low": 25139.05,
-    "pe": 15.57,
-    "pb": 2.34,
-    "close_3m_ago": 26556.7,
-    "close_6m_ago": 26343.55,
-    "ret_3m_pct": -4.4,
-    "ret_prev_3m_pct": 0.81
+    "close": 24987.1,
+    "pts_chg": -400.0,
+    "pct_chg": -1.58,
+    "high": 25363.25,
+    "low": 24911.2,
+    "pe": 15.05,
+    "pb": 2.31,
+    "close_3m_ago": 26903.35,
+    "close_6m_ago": 26521.25,
+    "ret_3m_pct": -7.12,
+    "ret_prev_3m_pct": 1.44
    },
    "Nifty Consumer Durables": {
-    "close": 36247.95,
-    "pts_chg": -221.35,
-    "pct_chg": -0.61,
-    "high": 36578.7,
-    "low": 36247.5,
-    "pe": 58.24,
-    "pb": 9.34,
-    "close_3m_ago": 39514.0,
-    "close_6m_ago": 37578.6,
-    "ret_3m_pct": -8.27,
-    "ret_prev_3m_pct": 5.15
+    "close": 35840.55,
+    "pts_chg": -407.4,
+    "pct_chg": -1.12,
+    "high": 36428.35,
+    "low": 35757.95,
+    "pe": 57.59,
+    "pb": 9.23,
+    "close_3m_ago": 39396.35,
+    "close_6m_ago": 38029.9,
+    "ret_3m_pct": -9.03,
+    "ret_prev_3m_pct": 3.59
    },
    "Nifty Infrastructure": {
-    "close": 8725.6,
-    "pts_chg": 39.7,
-    "pct_chg": 0.46,
-    "high": 8744.1,
-    "low": 8632.15,
-    "pe": 21.82,
-    "pb": 2.59,
-    "close_3m_ago": 9331.3,
-    "close_6m_ago": 9233.6,
-    "ret_3m_pct": -6.49,
-    "ret_prev_3m_pct": 1.06
+    "close": 8666.5,
+    "pts_chg": -59.1,
+    "pct_chg": -0.68,
+    "high": 8788.15,
+    "low": 8644.25,
+    "pe": 21.67,
+    "pb": 2.58,
+    "close_3m_ago": 9377.35,
+    "close_6m_ago": 9311.5,
+    "ret_3m_pct": -7.58,
+    "ret_prev_3m_pct": 0.71
    },
    "Nifty FMCG": {
-    "close": 44616.15,
-    "pts_chg": -175.5,
-    "pct_chg": -0.39,
-    "high": 44859.65,
-    "low": 44361.45,
-    "pe": 30.84,
-    "pb": 7.41,
-    "close_3m_ago": 48408.0,
-    "close_6m_ago": 48377.9,
-    "ret_3m_pct": -7.83,
-    "ret_prev_3m_pct": 0.06
+    "close": 43975.5,
+    "pts_chg": -640.65,
+    "pct_chg": -1.44,
+    "high": 44579.25,
+    "low": 43934.85,
+    "pe": 30.39,
+    "pb": 7.3,
+    "close_3m_ago": 48748.7,
+    "close_6m_ago": 49657.75,
+    "ret_3m_pct": -9.79,
+    "ret_prev_3m_pct": -1.83
    },
    "Nifty Oil & Gas": {
-    "close": 10556.75,
-    "pts_chg": -47.85,
-    "pct_chg": -0.45,
-    "high": 10598.8,
-    "low": 10464.95,
-    "pe": 10.52,
+    "close": 10544.4,
+    "pts_chg": -12.35,
+    "pct_chg": -0.12,
+    "high": 10649.9,
+    "low": 10522.0,
+    "pe": 10.51,
     "pb": 1.3,
-    "close_3m_ago": 11188.15,
-    "close_6m_ago": 11254.95,
-    "ret_3m_pct": -5.64,
-    "ret_prev_3m_pct": -0.59
+    "close_3m_ago": 11298.65,
+    "close_6m_ago": 11409.95,
+    "ret_3m_pct": -6.68,
+    "ret_prev_3m_pct": -0.98
    },
    "Nifty Energy": {
-    "close": 36190.85,
-    "pts_chg": -22.85,
-    "pct_chg": -0.06,
-    "high": 36375.75,
-    "low": 35821.4,
-    "pe": 14.3,
-    "pb": 1.99,
-    "close_3m_ago": 39345.8,
-    "close_6m_ago": 38184.75,
-    "ret_3m_pct": -8.02,
-    "ret_prev_3m_pct": 3.04
+    "close": 35974.45,
+    "pts_chg": -216.4,
+    "pct_chg": -0.6,
+    "high": 36355.75,
+    "low": 35911.5,
+    "pe": 14.22,
+    "pb": 1.97,
+    "close_3m_ago": 39277.0,
+    "close_6m_ago": 38881.75,
+    "ret_3m_pct": -8.41,
+    "ret_prev_3m_pct": 1.02
    },
    "Nifty Realty": {
-    "close": 825.95,
-    "pts_chg": -2.75,
-    "pct_chg": -0.33,
-    "high": 830.75,
-    "low": 820.2,
-    "pe": 34.98,
-    "pb": 3.61,
-    "close_3m_ago": 906.15,
-    "close_6m_ago": 779.55,
-    "ret_3m_pct": -8.85,
-    "ret_prev_3m_pct": 16.24
+    "close": 816.05,
+    "pts_chg": -9.9,
+    "pct_chg": -1.2,
+    "high": 833.9,
+    "low": 814.6,
+    "pe": 34.55,
+    "pb": 3.56,
+    "close_3m_ago": 918.7,
+    "close_6m_ago": 786.9,
+    "ret_3m_pct": -11.17,
+    "ret_prev_3m_pct": 16.75
    }
   },
   "source": "NSE ind_close_all files",
   "holdings": {
    "INDHOTEL": {
-    "close": 772.1,
-    "close_3m_ago": 731.45,
-    "close_6m_ago": 652.75,
-    "ret_3m_pct": 5.56,
-    "ret_6m_pct": 18.28
+    "close": 760.0,
+    "close_3m_ago": 727.9,
+    "close_6m_ago": 659.3,
+    "ret_3m_pct": 4.41,
+    "ret_6m_pct": 15.27
    },
    "EXIDEIND": {
-    "close": 370.95,
-    "close_3m_ago": 421.3,
-    "close_6m_ago": 331.4,
-    "ret_3m_pct": -11.95,
-    "ret_6m_pct": 11.93
+    "close": 360.15,
+    "close_3m_ago": 435.2,
+    "close_6m_ago": 330.0,
+    "ret_3m_pct": -17.24,
+    "ret_6m_pct": 9.14
    },
    "BOSCHLTD": {
-    "close": 45560.0,
-    "close_3m_ago": 41110.0,
-    "close_6m_ago": 37440.0,
-    "ret_3m_pct": 10.82,
-    "ret_6m_pct": 21.69
+    "close": 45195.0,
+    "close_3m_ago": 40855.0,
+    "close_6m_ago": 37505.0,
+    "ret_3m_pct": 10.62,
+    "ret_6m_pct": 20.5
    },
    "BAJAJ-AUTO": {
-    "close": 10405.0,
-    "close_3m_ago": 10331.5,
-    "close_6m_ago": 9825.0,
-    "ret_3m_pct": 0.71,
-    "ret_6m_pct": 5.9
+    "close": 10287.0,
+    "close_3m_ago": 10443.0,
+    "close_6m_ago": 9773.5,
+    "ret_3m_pct": -1.49,
+    "ret_6m_pct": 5.25
    }
   },
-  "holdings_source": "NSE bhavcopy 2026-10-16, 2026-07-16, 2026-04-16",
+  "holdings_source": "NSE bhavcopy 2026-10-19, 2026-07-17, 2026-04-17",
   "year_high_low": {
    "NIFTY 50": {
     "yearHigh": 26373.2,
     "yearLow": 22179.9,
-    "last": 23150.85
+    "last": 22888.95
    },
    "NIFTY BANK": {
     "yearHigh": 61764.85,
     "yearLow": 49954.85,
-    "last": 55827.45
+    "last": 55488.1
    },
    "NIFTY MIDCAP 100": {
     "yearHigh": 64450.9,
     "yearLow": 52032.85,
-    "last": 59101.6
+    "last": 58487.95
    },
    "NIFTY SMALLCAP 100": {
     "yearHigh": 20187.8,
     "yearLow": 14986,
-    "last": 19133.3
+    "last": 18935.75
    },
    "INDIA VIX": {
-    "yearHigh": 23.09,
-    "yearLow": 10.39,
-    "last": 14.06
+    "yearHigh": 28.91,
+    "yearLow": 8.72,
+    "last": 14.69
    },
    "NIFTY MIDCAP 150": {
     "yearHigh": 23647.5,
     "yearLow": 19218,
-    "last": 21726.25
+    "last": 21499.3
    },
    "NIFTY SMALLCAP 250": {
     "yearHigh": 18551,
     "yearLow": 14143.45,
-    "last": 17634
+    "last": 17435.15
    }
   }
  },
  "global_indices": {
   "S&P 500": {
    "ticker": "^GSPC",
-   "close": 7659.4399,
-   "date": "2026-10-16",
-   "prev_close": 7744.0601,
-   "pct_chg": -1.09
+   "close": 7690.73,
+   "date": "2026-10-19",
+   "prev_close": 7659.4399,
+   "pct_chg": 0.41
   },
   "Nikkei 225": {
    "ticker": "^N225",
-   "close": 64534.0312,
-   "date": "2026-10-19",
-   "prev_close": 65324.2891,
-   "pct_chg": -1.21
+   "close": 64512.3516,
+   "date": "2026-10-20",
+   "prev_close": 64916.6992,
+   "pct_chg": -0.62
   },
   "KOSPI": {
    "ticker": "^KS11",
-   "close": 5718.8999,
-   "date": "2026-10-19",
-   "prev_close": 5668.0498,
-   "pct_chg": 0.9
+   "close": 5629.2202,
+   "date": "2026-10-20",
+   "prev_close": 5768.0098,
+   "pct_chg": -2.41
   },
   "TAIEX": {
    "ticker": "^TWII",
-   "close": 46553.6992,
-   "date": "2026-10-19",
-   "prev_close": 47111.2617,
-   "pct_chg": -1.18
+   "close": 46837.0,
+   "date": "2026-10-20",
+   "prev_close": 46822.0781,
+   "pct_chg": 0.03
   },
   "Shanghai Composite": {
    "ticker": "000001.SS",
-   "close": 3719.5486,
-   "date": "2026-10-19",
-   "prev_close": 3716.2839,
-   "pct_chg": 0.09
+   "close": 3732.8357,
+   "date": "2026-10-20",
+   "prev_close": 3730.9199,
+   "pct_chg": 0.05
   },
   "DAX": {
    "ticker": "^GDAXI",
-   "close": 25622.6094,
-   "date": "2026-10-16",
-   "prev_close": 25382.6191,
-   "pct_chg": 0.95
+   "close": 25319.7695,
+   "date": "2026-10-19",
+   "prev_close": 25622.6094,
+   "pct_chg": -1.18
   },
   "Sensex": {
    "ticker": "^BSESN",
-   "close": 74729.2734,
-   "date": "2026-10-16",
-   "prev_close": 74315.6094,
-   "pct_chg": 0.56
+   "close": 73852.8984,
+   "date": "2026-10-19",
+   "prev_close": 74729.2734,
+   "pct_chg": -1.17
   }
  },
  "fx": {
   "USD/INR": {
    "ticker": "INR=X",
-   "close": 94.8125,
-   "date": "2026-10-16",
-   "prev_close": 94.5248,
-   "pct_chg": 0.3,
+   "close": 94.915,
+   "date": "2026-10-19",
+   "prev_close": 94.9777,
+   "pct_chg": -0.07,
    "low_52w_close": 87.7403,
    "high_52w_close": 96.8769
   },
   "EUR/INR": {
    "ticker": "EURINR=X",
-   "close": 106.465,
-   "date": "2026-10-16",
-   "prev_close": 106.514,
-   "pct_chg": -0.05,
+   "close": 106.5879,
+   "date": "2026-10-19",
+   "prev_close": 106.63,
+   "pct_chg": -0.04,
    "low_52w_close": 101.656,
    "high_52w_close": 112.486
   },
   "GBP/INR": {
    "ticker": "GBPINR=X",
-   "close": 126.3661,
-   "date": "2026-10-16",
-   "prev_close": 125.4517,
-   "pct_chg": 0.73,
+   "close": 126.4713,
+   "date": "2026-10-19",
+   "prev_close": 126.6547,
+   "pct_chg": -0.14,
    "low_52w_close": 115.5451,
    "high_52w_close": 130.5909
   },
   "JPY/INR": {
    "ticker": "JPYINR=X",
-   "close": 0.5996,
-   "date": "2026-10-16",
-   "prev_close": 0.6006,
-   "pct_chg": -0.18,
+   "close": 0.5989,
+   "date": "2026-10-19",
+   "prev_close": 0.5829,
+   "pct_chg": 2.73,
    "low_52w_close": 0.5627,
    "high_52w_close": 0.6187,
    "note": "per 1 yen; multiply by 100 for the brief's per-100 tile"
   },
   "USD/JPY": {
    "ticker": "JPY=X",
-   "close": 158.114,
-   "date": "2026-10-16",
-   "prev_close": 158.143,
-   "pct_chg": -0.02,
+   "close": 158.364,
+   "date": "2026-10-19",
+   "prev_close": 157.806,
+   "pct_chg": 0.35,
    "low_52w_close": 150.774,
    "high_52w_close": 163.864
   },
   "USD/KRW": {
    "ticker": "KRW=X",
-   "close": 1331.86,
-   "date": "2026-10-16",
-   "prev_close": 1340.95,
-   "pct_chg": -0.68,
-   "low_52w_close": 1331.86,
+   "close": 1328.38,
+   "date": "2026-10-19",
+   "prev_close": 1333.4301,
+   "pct_chg": -0.38,
+   "low_52w_close": 1328.38,
    "high_52w_close": 1554.48
   },
   "USD/TWD": {
    "ticker": "TWD=X",
-   "close": 32.502,
-   "date": "2026-10-16",
-   "prev_close": 32.3269,
-   "pct_chg": 0.54,
+   "close": 32.575,
+   "date": "2026-10-19",
+   "prev_close": 32.387,
+   "pct_chg": 0.58,
    "low_52w_close": 30.5431,
-   "high_52w_close": 32.502
+   "high_52w_close": 32.575
   },
   "USD/CNY": {
    "ticker": "CNY=X",
-   "close": 6.6815,
-   "date": "2026-10-16",
+   "close": 6.6787,
+   "date": "2026-10-19",
    "prev_close": 6.6909,
-   "pct_chg": -0.14,
-   "low_52w_close": 6.6815,
+   "pct_chg": -0.18,
+   "low_52w_close": 6.6787,
    "high_52w_close": 7.1718
   },
   "EUR/USD": {
    "ticker": "EURUSD=X",
-   "close": 1.1232,
-   "date": "2026-10-16",
-   "prev_close": 1.1213,
-   "pct_chg": 0.17,
+   "close": 1.123,
+   "date": "2026-10-19",
+   "prev_close": 1.1225,
+   "pct_chg": 0.04,
    "low_52w_close": 1.116,
    "high_52w_close": 1.2018
   },
   "CNY/INR": {
-   "close": 14.1903,
-   "date": "2026-10-16",
+   "close": 14.2116,
+   "date": "2026-10-19",
    "note": "derived as USD/INR / USD/CNY (Yahoo has no direct CNYINR series)"
   }
  },
  "commodities": {
   "Brent": {
    "ticker": "BZ=F",
-   "close": 109.86,
-   "date": "2026-10-16",
-   "prev_close": 105.92,
-   "pct_chg": 3.72
+   "close": 110.09,
+   "date": "2026-10-19",
+   "prev_close": 109.86,
+   "pct_chg": 0.21
   },
   "WTI": {
    "ticker": "CL=F",
-   "close": 101.41,
-   "date": "2026-10-16",
-   "prev_close": 97.97,
-   "pct_chg": 3.51
+   "close": 98.87,
+   "date": "2026-10-19",
+   "prev_close": 101.41,
+   "pct_chg": -2.5
   },
   "Gold": {
    "ticker": "GC=F",
-   "close": 4181.1001,
-   "date": "2026-10-16",
-   "prev_close": 4170.1001,
-   "pct_chg": 0.26
+   "close": 4161.3999,
+   "date": "2026-10-19",
+   "prev_close": 4181.1001,
+   "pct_chg": -0.47
   },
   "Silver": {
    "ticker": "SI=F",
-   "close": 56.995,
-   "date": "2026-10-16",
-   "prev_close": 56.837,
-   "pct_chg": 0.28
+   "close": 57.545,
+   "date": "2026-10-19",
+   "prev_close": 56.995,
+   "pct_chg": 0.96
   },
   "Copper": {
    "ticker": "HG=F",
-   "close": 6.531,
-   "date": "2026-10-16",
-   "prev_close": 6.5115,
-   "pct_chg": 0.3
+   "close": 6.5755,
+   "date": "2026-10-19",
+   "prev_close": 6.531,
+   "pct_chg": 0.68
   },
   "Henry Hub gas": {
    "ticker": "NG=F",
-   "close": 3.116,
-   "date": "2026-10-16",
-   "prev_close": 3.236,
-   "pct_chg": -3.71
+   "close": 3.034,
+   "date": "2026-10-19",
+   "prev_close": 3.116,
+   "pct_chg": -2.63
   },
   "Soybean oil": {
    "ticker": "ZL=F",
-   "close": 67.13,
-   "date": "2026-10-16",
-   "prev_close": 67.15,
-   "pct_chg": -0.03
+   "close": 66.71,
+   "date": "2026-10-19",
+   "prev_close": 67.13,
+   "pct_chg": -0.63
   }
  },
  "india_vix_52w": {
-  "n": 246,
+  "n": 245,
   "min": 9.15,
-  "q1": 11.63,
-  "median": 12.93,
-  "q3": 15.75,
+  "q1": 11.67,
+  "median": 12.98,
+  "q3": 15.79,
   "max": 27.89,
   "source": "Yahoo ^INDIAVIX daily closes"
  },
  "treasury_yields": {
   "latest": {
+   "date": "2026-10-19",
+   "3M": 4.27,
+   "5Y": 4.94,
+   "10Y": 5.15,
+   "30Y": 5.48
+  },
+  "previous": {
    "date": "2026-10-16",
    "3M": 4.26,
    "5Y": 4.89,
    "10Y": 5.09,
-   "30Y": 5.43
-  },
-  "previous": {
-   "date": "2026-10-15",
-   "3M": 4.28,
-   "5Y": 4.91,
-   "10Y": 5.1,
    "30Y": 5.43
   },
   "source": "US Treasury daily par yield curve"
@@ -585,211 +585,211 @@
  "ai_market_caps": {
   "Nvidia": {
    "ticker": "NVDA",
-   "close": 214.13,
-   "date": "2026-10-16",
-   "prev_close": 217.23,
-   "pct_chg": -1.43,
-   "market_cap_usd_bn": 5170.6
+   "close": 217.09,
+   "date": "2026-10-19",
+   "prev_close": 214.13,
+   "pct_chg": 1.38,
+   "market_cap_usd_bn": 5242.1
   },
   "Broadcom": {
    "ticker": "AVGO",
-   "close": 328.75,
-   "date": "2026-10-16",
-   "prev_close": 344.33,
-   "pct_chg": -4.52,
-   "market_cap_usd_bn": 1569.3
+   "close": 334.59,
+   "date": "2026-10-19",
+   "prev_close": 328.75,
+   "pct_chg": 1.78,
+   "market_cap_usd_bn": 1597.2
   },
   "AMD": {
    "ticker": "AMD",
-   "close": 528.75,
-   "date": "2026-10-16",
-   "prev_close": 562.23,
-   "pct_chg": -5.95,
-   "market_cap_usd_bn": 863.2
+   "close": 538.05,
+   "date": "2026-10-19",
+   "prev_close": 528.75,
+   "pct_chg": 1.76,
+   "market_cap_usd_bn": 878.4
   },
   "Arm": {
    "ticker": "ARM",
-   "close": 227.8,
-   "date": "2026-10-16",
-   "prev_close": 244.79,
-   "pct_chg": -6.94,
-   "market_cap_usd_bn": 243.3
+   "close": 228.05,
+   "date": "2026-10-19",
+   "prev_close": 227.8,
+   "pct_chg": 0.11,
+   "market_cap_usd_bn": 243.6
   },
   "Marvell": {
    "ticker": "MRVL",
-   "close": 227.83,
-   "date": "2026-10-16",
-   "prev_close": 241.24,
-   "pct_chg": -5.56,
-   "market_cap_usd_bn": 204.8
+   "close": 237.09,
+   "date": "2026-10-19",
+   "prev_close": 227.83,
+   "pct_chg": 4.06,
+   "market_cap_usd_bn": 213.1
   },
   "Qualcomm": {
    "ticker": "QCOM",
-   "close": 172.11,
-   "date": "2026-10-16",
-   "prev_close": 178.4,
-   "pct_chg": -3.53,
-   "market_cap_usd_bn": 183.8
+   "close": 173.53,
+   "date": "2026-10-19",
+   "prev_close": 172.11,
+   "pct_chg": 0.83,
+   "market_cap_usd_bn": 185.3
   },
   "TSMC": {
    "ticker": "TSM",
-   "close": 412.61,
-   "date": "2026-10-16",
-   "prev_close": 422.25,
-   "pct_chg": -2.28,
-   "market_cap_usd_bn": 2140.0
+   "close": 420.22,
+   "date": "2026-10-19",
+   "prev_close": 412.61,
+   "pct_chg": 1.84,
+   "market_cap_usd_bn": 2179.5
   },
   "Samsung Electronics": {
    "ticker": "005930.KS",
-   "close": 218000.0,
-   "date": "2026-10-19",
-   "prev_close": 215500.0,
-   "pct_chg": 1.16,
-   "market_cap_usd_bn": 1065.9
+   "close": 215750.0,
+   "date": "2026-10-20",
+   "prev_close": 218000.0,
+   "pct_chg": -1.03,
+   "market_cap_usd_bn": 1057.6
   },
   "Intel": {
    "ticker": "INTC",
-   "close": 89.85,
-   "date": "2026-10-16",
-   "prev_close": 95.37,
-   "pct_chg": -5.79,
-   "market_cap_usd_bn": 475.0
+   "close": 92.03,
+   "date": "2026-10-19",
+   "prev_close": 89.85,
+   "pct_chg": 2.43,
+   "market_cap_usd_bn": 483.6
   },
   "Micron": {
    "ticker": "MU",
-   "close": 878.84,
-   "date": "2026-10-16",
-   "prev_close": 931.24,
-   "pct_chg": -5.63,
-   "market_cap_usd_bn": 994.3
+   "close": 904.9,
+   "date": "2026-10-19",
+   "prev_close": 878.84,
+   "pct_chg": 2.97,
+   "market_cap_usd_bn": 1023.8
   },
   "SK Hynix": {
    "ticker": "000660.KS",
-   "close": 1264500.0,
-   "date": "2026-10-19",
-   "prev_close": 1272000.0,
-   "pct_chg": -0.59,
-   "market_cap_usd_bn": 692.0
+   "close": 1247000.0,
+   "date": "2026-10-20",
+   "prev_close": 1277000.0,
+   "pct_chg": -2.35,
+   "market_cap_usd_bn": 684.2
   },
   "ASML": {
    "ticker": "ASML",
-   "close": 1641.52,
-   "date": "2026-10-16",
-   "prev_close": 1657.4399,
-   "pct_chg": -0.96,
-   "market_cap_usd_bn": 632.7
+   "close": 1647.12,
+   "date": "2026-10-19",
+   "prev_close": 1641.52,
+   "pct_chg": 0.34,
+   "market_cap_usd_bn": 634.8
   },
   "Lam Research": {
    "ticker": "LRCX",
-   "close": 263.94,
-   "date": "2026-10-16",
-   "prev_close": 277.46,
-   "pct_chg": -4.87,
-   "market_cap_usd_bn": 330.3
+   "close": 272.2,
+   "date": "2026-10-19",
+   "prev_close": 263.94,
+   "pct_chg": 3.13,
+   "market_cap_usd_bn": 340.6
   },
   "Applied Materials": {
    "ticker": "AMAT",
-   "close": 409.29,
-   "date": "2026-10-16",
-   "prev_close": 430.01,
-   "pct_chg": -4.82,
-   "market_cap_usd_bn": 324.8
+   "close": 413.11,
+   "date": "2026-10-19",
+   "prev_close": 409.29,
+   "pct_chg": 0.93,
+   "market_cap_usd_bn": 327.8
   },
   "KLA": {
    "ticker": "KLAC",
-   "close": 165.74,
-   "date": "2026-10-16",
-   "prev_close": 174.46,
-   "pct_chg": -5.0,
-   "market_cap_usd_bn": 216.3
+   "close": 166.4,
+   "date": "2026-10-19",
+   "prev_close": 165.74,
+   "pct_chg": 0.4,
+   "market_cap_usd_bn": 217.2
   },
   "Cadence": {
    "ticker": "CDNS",
-   "close": 319.51,
-   "date": "2026-10-16",
-   "prev_close": 324.38,
-   "pct_chg": -1.5,
-   "market_cap_usd_bn": 88.0
+   "close": 325.86,
+   "date": "2026-10-19",
+   "prev_close": 319.51,
+   "pct_chg": 1.99,
+   "market_cap_usd_bn": 89.7
   },
   "Synopsys": {
    "ticker": "SNPS",
-   "close": 454.63,
-   "date": "2026-10-16",
-   "prev_close": 468.11,
-   "pct_chg": -2.88,
+   "close": 454.58,
+   "date": "2026-10-19",
+   "prev_close": 454.63,
+   "pct_chg": -0.01,
    "market_cap_usd_bn": 87.1
   },
   "Arista Networks": {
    "ticker": "ANET",
-   "close": 176.98,
-   "date": "2026-10-16",
-   "prev_close": 185.58,
-   "pct_chg": -4.63,
-   "market_cap_usd_bn": 223.2
+   "close": 182.95,
+   "date": "2026-10-19",
+   "prev_close": 176.98,
+   "pct_chg": 3.37,
+   "market_cap_usd_bn": 230.7
   },
   "Vertiv": {
    "ticker": "VRT",
-   "close": 206.42,
-   "date": "2026-10-16",
-   "prev_close": 214.75,
-   "pct_chg": -3.88,
-   "market_cap_usd_bn": 79.5
+   "close": 206.08,
+   "date": "2026-10-19",
+   "prev_close": 206.42,
+   "pct_chg": -0.16,
+   "market_cap_usd_bn": 79.3
   },
   "Alphabet": {
    "ticker": "GOOGL",
-   "close": 340.59,
-   "date": "2026-10-16",
-   "prev_close": 349.22,
-   "pct_chg": -2.47,
-   "market_cap_usd_bn": 4165.4
+   "close": 344.18,
+   "date": "2026-10-19",
+   "prev_close": 340.59,
+   "pct_chg": 1.05,
+   "market_cap_usd_bn": 4209.3
   },
   "Microsoft": {
    "ticker": "MSFT",
-   "close": 529.05,
-   "date": "2026-10-16",
-   "prev_close": 539.44,
-   "pct_chg": -1.93,
-   "market_cap_usd_bn": 3928.5
+   "close": 533.52,
+   "date": "2026-10-19",
+   "prev_close": 529.05,
+   "pct_chg": 0.84,
+   "market_cap_usd_bn": 3961.7
   },
   "Amazon": {
    "ticker": "AMZN",
-   "close": 250.0,
-   "date": "2026-10-16",
-   "prev_close": 254.76,
-   "pct_chg": -1.87,
-   "market_cap_usd_bn": 2696.6
+   "close": 262.45,
+   "date": "2026-10-19",
+   "prev_close": 250.0,
+   "pct_chg": 4.98,
+   "market_cap_usd_bn": 2830.9
   },
   "Meta": {
    "ticker": "META",
-   "close": 709.33,
-   "date": "2026-10-16",
-   "prev_close": 736.72,
-   "pct_chg": -3.72,
-   "market_cap_usd_bn": 1807.0
+   "close": 705.44,
+   "date": "2026-10-19",
+   "prev_close": 709.33,
+   "pct_chg": -0.55,
+   "market_cap_usd_bn": 1797.1
   },
   "Oracle": {
    "ticker": "ORCL",
-   "close": 128.23,
-   "date": "2026-10-16",
-   "prev_close": 134.47,
-   "pct_chg": -4.64,
-   "market_cap_usd_bn": 388.7
+   "close": 129.59,
+   "date": "2026-10-19",
+   "prev_close": 128.23,
+   "pct_chg": 1.06,
+   "market_cap_usd_bn": 392.9
   },
   "Alibaba": {
    "ticker": "BABA",
-   "close": 109.11,
-   "date": "2026-10-16",
-   "prev_close": 111.13,
-   "pct_chg": -1.82,
-   "market_cap_usd_bn": 271.4
+   "close": 108.57,
+   "date": "2026-10-19",
+   "prev_close": 109.11,
+   "pct_chg": -0.49,
+   "market_cap_usd_bn": 270.1
   },
   "CoreWeave": {
    "ticker": "CRWV",
-   "close": 61.39,
-   "date": "2026-10-16",
-   "prev_close": 69.69,
-   "pct_chg": -11.91,
-   "market_cap_usd_bn": 33.9
+   "close": 61.12,
+   "date": "2026-10-19",
+   "prev_close": 61.39,
+   "pct_chg": -0.44,
+   "market_cap_usd_bn": 33.7
   }
  },
  "spinr_history": {
@@ -801,18 +801,6 @@
   ],
   "source": "Yahoo Finance daily closes (^GSPC, ^BSESN, INR=X)",
   "rows": [
-   [
-    "2025-09-18",
-    6631.96,
-    83013.96,
-    88.2069
-   ],
-   [
-    "2025-09-19",
-    6664.36,
-    82626.23,
-    88.0992
-   ],
    [
     "2025-09-22",
     6693.75,
@@ -2479,7 +2467,13 @@
     "2026-10-16",
     7659.44,
     74729.27,
-    94.8125
+    94.9777
+   ],
+   [
+    "2026-10-19",
+    7690.73,
+    73852.9,
+    94.915
    ]
   ]
  }
