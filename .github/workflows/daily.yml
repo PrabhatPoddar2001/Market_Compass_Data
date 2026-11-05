@@ -3,8 +3,8 @@ name: Daily market data
 on:
   schedule:
     # 03:00 UTC = 08:30 IST, Monday to Friday (GitHub may start it a few minutes late)
-    - cron: "0 3 * * 1-5"
-  workflow_dispatch: {}   # adds a "Run workflow" button for manual runs
+    - cron: '47 1 * * 1-5'
+  workflow_dispatch:   # adds a "Run workflow" button for manual runs
 
 permissions:
   contents: write         # lets the job save data.json back to the repository
