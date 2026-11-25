@@ -1,5 +1,5 @@
 {
- "generated_at_ist": "2026-11-25 22:34",
+ "generated_at_ist": "2026-11-25 22:42",
  "health": {
   "global_indices": {
    "status": "ok",
@@ -44,7 +44,7 @@
    "status": "ok"
   },
   "critical_ok": true,
-  "seconds": 4.0
+  "seconds": 2.4
  },
  "script_version": 2,
  "errors": [],
@@ -429,10 +429,10 @@
  "global_indices": {
   "S&P 500": {
    "ticker": "^GSPC",
-   "close": 7047.3999,
+   "close": 7082.1699,
    "date": "2026-11-25",
    "prev_close": 7201.0898,
-   "pct_chg": -2.13
+   "pct_chg": -1.65
   },
   "Nikkei 225": {
    "ticker": "^N225",
@@ -517,16 +517,16 @@
   },
   "USD/JPY": {
    "ticker": "JPY=X",
-   "close": 158.768,
+   "close": 158.837,
    "date": "2026-11-24",
    "prev_close": 159.009,
-   "pct_chg": -0.15,
+   "pct_chg": -0.11,
    "low_52w_close": 152.453,
    "high_52w_close": 163.864
   },
   "USD/KRW": {
    "ticker": "KRW=X",
-   "close": 1346.0601,
+   "close": 1346.08,
    "date": "2026-11-24",
    "prev_close": 1341.02,
    "pct_chg": 0.38,
@@ -535,12 +535,12 @@
   },
   "USD/TWD": {
    "ticker": "TWD=X",
-   "close": 33.236,
+   "close": 33.238,
    "date": "2026-11-24",
    "prev_close": 32.8485,
-   "pct_chg": 1.18,
+   "pct_chg": 1.19,
    "low_52w_close": 31.077,
-   "high_52w_close": 33.236
+   "high_52w_close": 33.238
   },
   "USD/CNY": {
    "ticker": "CNY=X",
@@ -573,52 +573,52 @@
  "commodities": {
   "Brent": {
    "ticker": "BZ=F",
-   "close": 89.69,
+   "close": 89.55,
    "date": "2026-11-25",
    "prev_close": 91.4,
-   "pct_chg": -1.87
+   "pct_chg": -2.02
   },
   "WTI": {
    "ticker": "CL=F",
-   "close": 83.07,
+   "close": 82.91,
    "date": "2026-11-25",
    "prev_close": 82.05,
-   "pct_chg": 1.24
+   "pct_chg": 1.05
   },
   "Gold": {
    "ticker": "GC=F",
-   "close": 3482.3,
+   "close": 3499.1001,
    "date": "2026-11-25",
    "prev_close": 3561.8999,
-   "pct_chg": -2.23
+   "pct_chg": -1.76
   },
   "Silver": {
    "ticker": "SI=F",
-   "close": 38.955,
+   "close": 39.305,
    "date": "2026-11-25",
    "prev_close": 40.76,
-   "pct_chg": -4.43
+   "pct_chg": -3.57
   },
   "Copper": {
    "ticker": "HG=F",
-   "close": 5.354,
+   "close": 5.379,
    "date": "2026-11-25",
    "prev_close": 5.3625,
-   "pct_chg": -0.16
+   "pct_chg": 0.31
   },
   "Henry Hub gas": {
    "ticker": "NG=F",
-   "close": 3.647,
+   "close": 3.677,
    "date": "2026-11-25",
    "prev_close": 3.323,
-   "pct_chg": 9.75
+   "pct_chg": 10.65
   },
   "Soybean oil": {
    "ticker": "ZL=F",
-   "close": 58.15,
+   "close": 58.18,
    "date": "2026-11-25",
    "prev_close": 58.11,
-   "pct_chg": 0.07
+   "pct_chg": 0.12
   }
  },
  "india_vix_52w": {
@@ -813,65 +813,65 @@
  "ai_market_caps": {
   "Nvidia": {
    "ticker": "NVDA",
-   "close": 142.815,
+   "close": 144.1913,
    "date": "2026-11-25",
    "prev_close": 155.38,
-   "pct_chg": -8.09,
-   "market_cap_usd_bn": 3448.6,
+   "pct_chg": -7.2,
+   "market_cap_usd_bn": 3481.8,
    "cap_method": "shares x close"
   },
   "Broadcom": {
    "ticker": "AVGO",
-   "close": 284.37,
+   "close": 286.02,
    "date": "2026-11-25",
    "prev_close": 301.08,
-   "pct_chg": -5.55,
-   "market_cap_usd_bn": 1357.5,
+   "pct_chg": -5.0,
+   "market_cap_usd_bn": 1365.4,
    "cap_method": "shares x close"
   },
   "AMD": {
    "ticker": "AMD",
-   "close": 380.73,
+   "close": 385.315,
    "date": "2026-11-25",
    "prev_close": 413.27,
-   "pct_chg": -7.87,
-   "market_cap_usd_bn": 630.1,
+   "pct_chg": -6.76,
+   "market_cap_usd_bn": 637.7,
    "cap_method": "shares x close"
   },
   "Arm": {
    "ticker": "ARM",
-   "close": 150.47,
+   "close": 153.28,
    "date": "2026-11-25",
    "prev_close": 161.56,
-   "pct_chg": -6.86,
-   "market_cap_usd_bn": 161.0,
+   "pct_chg": -5.13,
+   "market_cap_usd_bn": 164.0,
    "cap_method": "shares x close"
   },
   "Marvell": {
    "ticker": "MRVL",
-   "close": 120.78,
+   "close": 122.23,
    "date": "2026-11-25",
    "prev_close": 131.57,
-   "pct_chg": -8.2,
-   "market_cap_usd_bn": 108.7,
+   "pct_chg": -7.1,
+   "market_cap_usd_bn": 110.0,
    "cap_method": "shares x close"
   },
   "Qualcomm": {
    "ticker": "QCOM",
-   "close": 160.45,
+   "close": 162.73,
    "date": "2026-11-25",
    "prev_close": 164.96,
-   "pct_chg": -2.73,
-   "market_cap_usd_bn": 171.7,
+   "pct_chg": -1.35,
+   "market_cap_usd_bn": 174.1,
    "cap_method": "shares x close"
   },
   "TSMC": {
    "ticker": "TSM",
-   "close": 325.87,
+   "close": 328.83,
    "date": "2026-11-25",
    "prev_close": 349.2,
-   "pct_chg": -6.68,
-   "market_cap_usd_bn": 1690.1,
+   "pct_chg": -5.83,
+   "market_cap_usd_bn": 1705.5,
    "cap_method": "shares x close"
   },
   "Samsung Electronics": {
@@ -885,20 +885,20 @@
   },
   "Intel": {
    "ticker": "INTC",
-   "close": 50.3,
+   "close": 51.06,
    "date": "2026-11-25",
    "prev_close": 54.8,
-   "pct_chg": -8.21,
-   "market_cap_usd_bn": 267.3,
+   "pct_chg": -6.82,
+   "market_cap_usd_bn": 271.4,
    "cap_method": "shares x close"
   },
   "Micron": {
    "ticker": "MU",
-   "close": 559.11,
+   "close": 564.2,
    "date": "2026-11-25",
    "prev_close": 629.79,
-   "pct_chg": -11.22,
-   "market_cap_usd_bn": 632.6,
+   "pct_chg": -10.41,
+   "market_cap_usd_bn": 638.3,
    "cap_method": "shares x close"
   },
   "SK Hynix": {
@@ -907,142 +907,142 @@
    "date": "2026-11-24",
    "prev_close": 1085000.0,
    "pct_chg": 6.73,
-   "market_cap_usd_bn": 606.7,
+   "market_cap_usd_bn": 606.6,
    "cap_method": "shares x close"
   },
   "ASML": {
    "ticker": "ASML",
-   "close": 1250.28,
+   "close": 1260.115,
    "date": "2026-11-25",
    "prev_close": 1336.0601,
-   "pct_chg": -6.42,
-   "market_cap_usd_bn": 481.9,
+   "pct_chg": -5.68,
+   "market_cap_usd_bn": 485.7,
    "cap_method": "shares x close"
   },
   "Lam Research": {
    "ticker": "LRCX",
-   "close": 174.11,
+   "close": 175.51,
    "date": "2026-11-25",
    "prev_close": 196.16,
-   "pct_chg": -11.24,
-   "market_cap_usd_bn": 217.5,
+   "pct_chg": -10.53,
+   "market_cap_usd_bn": 219.2,
    "cap_method": "shares x close"
   },
   "Applied Materials": {
    "ticker": "AMAT",
-   "close": 294.31,
+   "close": 297.29,
    "date": "2026-11-25",
    "prev_close": 323.76,
-   "pct_chg": -9.1,
-   "market_cap_usd_bn": 233.6,
+   "pct_chg": -8.18,
+   "market_cap_usd_bn": 235.9,
    "cap_method": "shares x close"
   },
   "KLA": {
    "ticker": "KLAC",
-   "close": 125.32,
+   "close": 126.59,
    "date": "2026-11-25",
    "prev_close": 133.65,
-   "pct_chg": -6.23,
-   "market_cap_usd_bn": 163.3,
+   "pct_chg": -5.28,
+   "market_cap_usd_bn": 164.9,
    "cap_method": "shares x close"
   },
   "Cadence": {
    "ticker": "CDNS",
-   "close": 285.21,
+   "close": 286.6,
    "date": "2026-11-25",
    "prev_close": 296.6,
-   "pct_chg": -3.84,
-   "market_cap_usd_bn": 78.3,
+   "pct_chg": -3.37,
+   "market_cap_usd_bn": 78.6,
    "cap_method": "shares x close"
   },
   "Synopsys": {
    "ticker": "SNPS",
-   "close": 394.96,
+   "close": 397.48,
    "date": "2026-11-25",
    "prev_close": 414.82,
-   "pct_chg": -4.79,
-   "market_cap_usd_bn": 75.7,
+   "pct_chg": -4.18,
+   "market_cap_usd_bn": 76.2,
    "cap_method": "shares x close"
   },
   "Arista Networks": {
    "ticker": "ANET",
-   "close": 156.62,
+   "close": 158.06,
    "date": "2026-11-25",
    "prev_close": 168.56,
-   "pct_chg": -7.08,
-   "market_cap_usd_bn": 197.9,
+   "pct_chg": -6.23,
+   "market_cap_usd_bn": 199.7,
    "cap_method": "shares x close"
   },
   "Vertiv": {
    "ticker": "VRT",
-   "close": 165.1501,
+   "close": 166.33,
    "date": "2026-11-25",
    "prev_close": 173.82,
-   "pct_chg": -4.99,
-   "market_cap_usd_bn": 63.6,
+   "pct_chg": -4.31,
+   "market_cap_usd_bn": 64.0,
    "cap_method": "shares x close"
   },
   "Alphabet": {
    "ticker": "GOOGL",
-   "close": 266.905,
+   "close": 268.6,
    "date": "2026-11-25",
    "prev_close": 279.05,
-   "pct_chg": -4.35,
-   "market_cap_usd_bn": 3281.3,
+   "pct_chg": -3.74,
+   "market_cap_usd_bn": 3302.2,
    "cap_method": "shares x close"
   },
   "Microsoft": {
    "ticker": "MSFT",
-   "close": 482.535,
+   "close": 485.77,
    "date": "2026-11-25",
    "prev_close": 496.13,
-   "pct_chg": -2.74,
-   "market_cap_usd_bn": 3583.4,
+   "pct_chg": -2.09,
+   "market_cap_usd_bn": 3607.4,
    "cap_method": "shares x close"
   },
   "Amazon": {
    "ticker": "AMZN",
-   "close": 241.05,
+   "close": 243.21,
    "date": "2026-11-25",
    "prev_close": 252.29,
-   "pct_chg": -4.46,
-   "market_cap_usd_bn": 2606.5,
+   "pct_chg": -3.6,
+   "market_cap_usd_bn": 2629.9,
    "cap_method": "shares x close"
   },
   "Meta": {
    "ticker": "META",
-   "close": 588.7401,
+   "close": 594.42,
    "date": "2026-11-25",
    "prev_close": 589.82,
-   "pct_chg": -0.18,
-   "market_cap_usd_bn": 1505.0,
+   "pct_chg": 0.78,
+   "market_cap_usd_bn": 1519.5,
    "cap_method": "shares x close"
   },
   "Oracle": {
    "ticker": "ORCL",
-   "close": 101.77,
+   "close": 102.54,
    "date": "2026-11-25",
    "prev_close": 109.5,
-   "pct_chg": -7.06,
-   "market_cap_usd_bn": 317.3,
+   "pct_chg": -6.36,
+   "market_cap_usd_bn": 319.7,
    "cap_method": "shares x close"
   },
   "Alibaba": {
    "ticker": "BABA",
-   "close": 83.71,
+   "close": 84.1501,
    "date": "2026-11-25",
    "prev_close": 84.86,
-   "pct_chg": -1.36,
-   "market_cap_usd_bn": 208.2,
+   "pct_chg": -0.84,
+   "market_cap_usd_bn": 209.3,
    "cap_method": "shares x close"
   },
   "CoreWeave": {
    "ticker": "CRWV",
-   "close": 38.87,
+   "close": 39.51,
    "date": "2026-11-25",
    "prev_close": 42.605,
-   "pct_chg": -8.77,
-   "market_cap_usd_bn": 21.6,
+   "pct_chg": -7.26,
+   "market_cap_usd_bn": 22.0,
    "cap_method": "shares x close"
   }
  },
@@ -2737,7 +2737,7 @@
    ],
    [
     "2026-11-25",
-    7047.4,
+    7082.17,
     83938.28,
     92.22
    ]
