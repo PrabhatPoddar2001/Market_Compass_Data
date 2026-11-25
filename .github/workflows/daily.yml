@@ -2,38 +2,67 @@ name: Daily market data
 
 on:
   schedule:
-    # 03:00 UTC = 08:30 IST, Monday to Friday (GitHub may start it a few minutes late)
-    - cron: '47 1 * * 1-5'
-  workflow_dispatch:   # adds a "Run workflow" button for manual runs
+    # GitHub often starts scheduled jobs 15-60 minutes late, so there are two
+    # runs, both well before the 09:15 IST brief. Off-the-hour minutes avoid the
+    # busiest slots. The second run does nothing if the first already succeeded.
+    - cron: '37 0 * * 1-5'   # 06:07 IST, Mon-Fri
+    - cron: '7 2 * * 1-5'    # 07:37 IST, Mon-Fri (backup)
+  workflow_dispatch:          # "Run workflow" button: always does a full pull
+    inputs:
+      force:
+        description: "Pull even if today's data is already fresh"
+        type: boolean
+        default: true
 
 permissions:
-  contents: write         # lets the job save data.json back to the repository
+  contents: write             # lets the job save data.json back to the repository
+
+concurrency:                  # never two runs pushing at the same time
+  group: market-data
+  cancel-in-progress: false
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+    env:
+      TZ: Asia/Kolkata
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
 
       - name: Install libraries
-        run: pip install -r requirements.txt
+        # -U keeps yfinance current: Yahoo changes its API often and fixes ship fast
+        run: pip install -U -r requirements.txt
 
       - name: Pull market data
-        run: python fetch.py
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python fetch.py --skip-if-fresh
+          else
+            python fetch.py
+          fi
 
       - name: Save data.json
         run: |
-          cp data.json /tmp/data.json
           git config user.name  "market-data-bot"
           git config user.email "market-data-bot@users.noreply.github.com"
-          git fetch origin main
-          git checkout -B main origin/main
-          cp /tmp/data.json data.json
-          git add data.json
-          git commit -m "Market data $(date -u +%F)" || echo "No changes"
-          git push origin main
+          cp data.json /tmp/data.json
+          for i in 1 2 3; do
+            git fetch origin main
+            git checkout -B main origin/main
+            cp /tmp/data.json data.json
+            git add data.json
+            if git diff --cached --quiet; then echo "No changes"; break; fi
+            git commit -m "Market data $(date +%F) $(date +%H:%M) IST"
+            if git push origin main; then break; fi
+            echo "push failed, retrying ($i)"; sleep $((i * 5))
+          done
+
+      - name: Health check (goes red, and GitHub e-mails you, if key data is stale)
+        run: python fetch.py --check
