@@ -1,29 +1,29 @@
 {
- "generated_at_ist": "2026-11-25 22:42",
+ "generated_at_ist": "2026-11-26 14:20",
  "health": {
   "global_indices": {
    "status": "ok",
    "items": 7,
    "stale_items": [],
-   "as_of": "2026-11-25"
+   "as_of": "2026-11-26"
   },
   "fx": {
    "status": "ok",
    "items": 10,
    "stale_items": [],
-   "as_of": "2026-11-24"
+   "as_of": "2026-11-25"
   },
   "commodities": {
    "status": "ok",
    "items": 7,
    "stale_items": [],
-   "as_of": "2026-11-25"
+   "as_of": "2026-11-26"
   },
   "ai_market_caps": {
    "status": "ok",
    "items": 26,
    "stale_items": [],
-   "as_of": "2026-11-25"
+   "as_of": "2026-11-26"
   },
   "india": {
    "status": "ok",
@@ -34,17 +34,17 @@
   },
   "treasury_yields": {
    "status": "ok",
-   "as_of": "2026-11-24"
+   "as_of": "2026-11-25"
   },
   "spinr_history": {
    "status": "ok",
-   "as_of": "2026-11-25"
+   "as_of": "2026-11-26"
   },
   "india_vix_52w": {
    "status": "ok"
   },
   "critical_ok": true,
-  "seconds": 2.4
+  "seconds": 1.6
  },
  "script_version": 2,
  "errors": [],
@@ -377,37 +377,37 @@
    "NIFTY 50": {
     "yearHigh": 26373.2,
     "yearLow": 22179.9,
-    "last": 25819.25
+    "last": 25823.2
    },
    "NIFTY BANK": {
     "yearHigh": 65193.4,
     "yearLow": 49954.85,
-    "last": 63703.25
+    "last": 63517.7
    },
    "NIFTY MIDCAP 100": {
     "yearHigh": 64450.9,
     "yearLow": 52032.85,
-    "last": 61584.75
+    "last": 61758.15
    },
    "NIFTY SMALLCAP 100": {
     "yearHigh": 20187.8,
     "yearLow": 14986,
-    "last": 19229.35
+    "last": 19384.3
    },
    "INDIA VIX": {
     "yearHigh": 28.91,
     "yearLow": 8.72,
-    "last": 17.69
+    "last": 16.95
    },
    "NIFTY MIDCAP 150": {
     "yearHigh": 23647.5,
     "yearLow": 19218,
-    "last": 22591.4
+    "last": 22641.8
    },
    "NIFTY SMALLCAP 250": {
     "yearHigh": 18551,
     "yearLow": 14143.45,
-    "last": 17630.6
+    "last": 17736.85
    }
   },
   "fii_dii": {
@@ -429,221 +429,221 @@
  "global_indices": {
   "S&P 500": {
    "ticker": "^GSPC",
-   "close": 7082.1699,
+   "close": 7182.7798,
    "date": "2026-11-25",
    "prev_close": 7201.0898,
-   "pct_chg": -1.65
+   "pct_chg": -0.25
   },
   "Nikkei 225": {
    "ticker": "^N225",
-   "close": 58644.6289,
-   "date": "2026-11-24",
-   "prev_close": 56436.6484,
-   "pct_chg": 3.91
+   "close": 57499.1602,
+   "date": "2026-11-26",
+   "prev_close": 57011.6211,
+   "pct_chg": 0.86
   },
   "KOSPI": {
    "ticker": "^KS11",
-   "close": 5006.0298,
-   "date": "2026-11-24",
-   "prev_close": 4708.54,
-   "pct_chg": 6.32
+   "close": 4711.21,
+   "date": "2026-11-26",
+   "prev_close": 4697.5098,
+   "pct_chg": 0.29
   },
   "TAIEX": {
    "ticker": "^TWII",
-   "close": 40122.3516,
-   "date": "2026-11-24",
-   "prev_close": 36811.8906,
-   "pct_chg": 8.99
+   "close": 39151.8086,
+   "date": "2026-11-26",
+   "prev_close": 38195.4297,
+   "pct_chg": 2.5
   },
   "Shanghai Composite": {
    "ticker": "000001.SS",
-   "close": 3548.3689,
-   "date": "2026-11-24",
-   "prev_close": 3538.948,
-   "pct_chg": 0.27
+   "close": 3476.8816,
+   "date": "2026-11-26",
+   "prev_close": 3476.47,
+   "pct_chg": 0.01
   },
   "DAX": {
    "ticker": "^GDAXI",
-   "close": 24702.1309,
-   "date": "2026-11-25",
-   "prev_close": 25017.8105,
-   "pct_chg": -1.26
+   "close": 25160.5508,
+   "date": "2026-11-26",
+   "prev_close": 24702.1309,
+   "pct_chg": 1.86
   },
   "Sensex": {
    "ticker": "^BSESN",
-   "close": 83938.2812,
-   "date": "2026-11-25",
-   "prev_close": 82435.9922,
-   "pct_chg": 1.82
+   "close": 83891.1719,
+   "date": "2026-11-26",
+   "prev_close": 83938.2812,
+   "pct_chg": -0.06
   }
  },
  "fx": {
   "USD/INR": {
    "ticker": "INR=X",
-   "close": 92.22,
-   "date": "2026-11-24",
-   "prev_close": 92.9152,
-   "pct_chg": -0.75,
-   "low_52w_close": 89.1506,
+   "close": 92.45,
+   "date": "2026-11-25",
+   "prev_close": 92.8066,
+   "pct_chg": -0.38,
+   "low_52w_close": 89.163,
    "high_52w_close": 96.8769
   },
   "EUR/INR": {
    "ticker": "EURINR=X",
-   "close": 100.8876,
-   "date": "2026-11-24",
-   "prev_close": 101.268,
-   "pct_chg": -0.38,
-   "low_52w_close": 100.8876,
+   "close": 101.3974,
+   "date": "2026-11-25",
+   "prev_close": 101.77,
+   "pct_chg": -0.37,
+   "low_52w_close": 101.268,
    "high_52w_close": 112.486
   },
   "GBP/INR": {
    "ticker": "GBPINR=X",
-   "close": 120.4441,
-   "date": "2026-11-24",
-   "prev_close": 121.0932,
-   "pct_chg": -0.54,
-   "low_52w_close": 117.3609,
+   "close": 121.1704,
+   "date": "2026-11-25",
+   "prev_close": 121.6827,
+   "pct_chg": -0.42,
+   "low_52w_close": 118.0549,
    "high_52w_close": 130.5909
   },
   "JPY/INR": {
    "ticker": "JPYINR=X",
-   "close": 0.5793,
-   "date": "2026-11-24",
-   "prev_close": 0.5838,
-   "pct_chg": -0.77,
+   "close": 0.5809,
+   "date": "2026-11-25",
+   "prev_close": 0.5828,
+   "pct_chg": -0.33,
    "low_52w_close": 0.5627,
    "high_52w_close": 0.6187,
    "note": "per 1 yen; multiply by 100 for the brief's per-100 tile"
   },
   "USD/JPY": {
    "ticker": "JPY=X",
-   "close": 158.837,
-   "date": "2026-11-24",
-   "prev_close": 159.009,
-   "pct_chg": -0.11,
+   "close": 159.135,
+   "date": "2026-11-25",
+   "prev_close": 159.262,
+   "pct_chg": -0.08,
    "low_52w_close": 152.453,
    "high_52w_close": 163.864
   },
   "USD/KRW": {
    "ticker": "KRW=X",
-   "close": 1346.08,
-   "date": "2026-11-24",
-   "prev_close": 1341.02,
-   "pct_chg": 0.38,
+   "close": 1343.54,
+   "date": "2026-11-25",
+   "prev_close": 1342.65,
+   "pct_chg": 0.07,
    "low_52w_close": 1321.76,
    "high_52w_close": 1554.48
   },
   "USD/TWD": {
    "ticker": "TWD=X",
-   "close": 33.238,
-   "date": "2026-11-24",
-   "prev_close": 32.8485,
-   "pct_chg": 1.19,
+   "close": 32.962,
+   "date": "2026-11-25",
+   "prev_close": 32.921,
+   "pct_chg": 0.12,
    "low_52w_close": 31.077,
-   "high_52w_close": 33.238
+   "high_52w_close": 33.1093
   },
   "USD/CNY": {
    "ticker": "CNY=X",
-   "close": 6.6583,
-   "date": "2026-11-24",
-   "prev_close": 6.6643,
-   "pct_chg": -0.09,
+   "close": 6.659,
+   "date": "2026-11-25",
+   "prev_close": 6.664,
+   "pct_chg": -0.08,
    "low_52w_close": 6.648,
-   "high_52w_close": 7.0845
+   "high_52w_close": 7.0758
   },
   "EUR/USD": {
    "ticker": "EURUSD=X",
-   "close": 1.0985,
-   "date": "2026-11-24",
-   "prev_close": 1.0908,
-   "pct_chg": 0.71,
+   "close": 1.0972,
+   "date": "2026-11-25",
+   "prev_close": 1.0962,
+   "pct_chg": 0.09,
    "low_52w_close": 1.0908,
    "high_52w_close": 1.2018
   },
   "CNY/INR": {
-   "close": 13.8504,
-   "date": "2026-11-24",
+   "close": 13.8835,
+   "date": "2026-11-25",
    "note": "derived as USD/INR / USD/CNY (Yahoo has no direct CNYINR series)",
-   "prev_close": 13.9422,
-   "pct_chg": -0.66,
-   "low_52w_close": 12.5839,
+   "prev_close": 13.9266,
+   "pct_chg": -0.31,
+   "low_52w_close": 12.6011,
    "high_52w_close": 14.4613
   }
  },
  "commodities": {
   "Brent": {
    "ticker": "BZ=F",
-   "close": 89.55,
-   "date": "2026-11-25",
-   "prev_close": 91.4,
-   "pct_chg": -2.02
+   "close": 90.7,
+   "date": "2026-11-26",
+   "prev_close": 94.61,
+   "pct_chg": -4.13
   },
   "WTI": {
    "ticker": "CL=F",
-   "close": 82.91,
-   "date": "2026-11-25",
-   "prev_close": 82.05,
-   "pct_chg": 1.05
+   "close": 83.92,
+   "date": "2026-11-26",
+   "prev_close": 83.68,
+   "pct_chg": 0.29
   },
   "Gold": {
    "ticker": "GC=F",
-   "close": 3499.1001,
-   "date": "2026-11-25",
-   "prev_close": 3561.8999,
-   "pct_chg": -1.76
+   "close": 3598.7,
+   "date": "2026-11-26",
+   "prev_close": 3535.8,
+   "pct_chg": 1.78
   },
   "Silver": {
    "ticker": "SI=F",
-   "close": 39.305,
-   "date": "2026-11-25",
-   "prev_close": 40.76,
-   "pct_chg": -3.57
+   "close": 41.77,
+   "date": "2026-11-26",
+   "prev_close": 40.052,
+   "pct_chg": 4.29
   },
   "Copper": {
    "ticker": "HG=F",
-   "close": 5.379,
-   "date": "2026-11-25",
-   "prev_close": 5.3625,
-   "pct_chg": 0.31
+   "close": 5.474,
+   "date": "2026-11-26",
+   "prev_close": 5.3325,
+   "pct_chg": 2.65
   },
   "Henry Hub gas": {
    "ticker": "NG=F",
-   "close": 3.677,
-   "date": "2026-11-25",
-   "prev_close": 3.323,
-   "pct_chg": 10.65
+   "close": 3.612,
+   "date": "2026-11-26",
+   "prev_close": 3.269,
+   "pct_chg": 10.49
   },
   "Soybean oil": {
    "ticker": "ZL=F",
-   "close": 58.18,
+   "close": 58.08,
    "date": "2026-11-25",
    "prev_close": 58.11,
-   "pct_chg": 0.12
+   "pct_chg": -0.05
   }
  },
  "india_vix_52w": {
   "n": 244,
   "min": 9.15,
   "q1": 11.75,
-  "median": 13.51,
-  "q3": 16.74,
+  "median": 13.57,
+  "q3": 16.85,
   "max": 27.89,
   "source": "Yahoo ^INDIAVIX daily closes"
  },
  "treasury_yields": {
   "latest": {
+   "date": "2026-11-25",
+   "3M": 4.34,
+   "5Y": 4.65,
+   "10Y": 4.85,
+   "30Y": 5.24
+  },
+  "previous": {
    "date": "2026-11-24",
    "3M": 4.36,
    "5Y": 4.69,
    "10Y": 4.91,
    "30Y": 5.3
-  },
-  "previous": {
-   "date": "2026-11-23",
-   "3M": 4.37,
-   "5Y": 4.74,
-   "10Y": 4.92,
-   "30Y": 5.29
   },
   "month_ends": [
    {
@@ -801,11 +801,11 @@
     "30Y": 5.31
    },
    {
-    "date": "2026-11-24",
-    "3M": 4.36,
-    "5Y": 4.69,
-    "10Y": 4.91,
-    "30Y": 5.3
+    "date": "2026-11-25",
+    "3M": 4.34,
+    "5Y": 4.65,
+    "10Y": 4.85,
+    "30Y": 5.24
    }
   ],
   "source": "US Treasury daily par yield curve"
@@ -813,236 +813,236 @@
  "ai_market_caps": {
   "Nvidia": {
    "ticker": "NVDA",
-   "close": 144.1913,
+   "close": 149.3,
    "date": "2026-11-25",
    "prev_close": 155.38,
-   "pct_chg": -7.2,
-   "market_cap_usd_bn": 3481.8,
+   "pct_chg": -3.91,
+   "market_cap_usd_bn": 3605.1,
    "cap_method": "shares x close"
   },
   "Broadcom": {
    "ticker": "AVGO",
-   "close": 286.02,
+   "close": 300.86,
    "date": "2026-11-25",
    "prev_close": 301.08,
-   "pct_chg": -5.0,
-   "market_cap_usd_bn": 1365.4,
+   "pct_chg": -0.07,
+   "market_cap_usd_bn": 1436.2,
    "cap_method": "shares x close"
   },
   "AMD": {
    "ticker": "AMD",
-   "close": 385.315,
+   "close": 406.03,
    "date": "2026-11-25",
    "prev_close": 413.27,
-   "pct_chg": -6.76,
-   "market_cap_usd_bn": 637.7,
+   "pct_chg": -1.75,
+   "market_cap_usd_bn": 672.0,
    "cap_method": "shares x close"
   },
   "Arm": {
    "ticker": "ARM",
-   "close": 153.28,
+   "close": 161.51,
    "date": "2026-11-25",
    "prev_close": 161.56,
-   "pct_chg": -5.13,
-   "market_cap_usd_bn": 164.0,
+   "pct_chg": -0.03,
+   "market_cap_usd_bn": 172.8,
    "cap_method": "shares x close"
   },
   "Marvell": {
    "ticker": "MRVL",
-   "close": 122.23,
+   "close": 130.93,
    "date": "2026-11-25",
    "prev_close": 131.57,
-   "pct_chg": -7.1,
-   "market_cap_usd_bn": 110.0,
+   "pct_chg": -0.49,
+   "market_cap_usd_bn": 117.8,
    "cap_method": "shares x close"
   },
   "Qualcomm": {
    "ticker": "QCOM",
-   "close": 162.73,
+   "close": 168.66,
    "date": "2026-11-25",
    "prev_close": 164.96,
-   "pct_chg": -1.35,
-   "market_cap_usd_bn": 174.1,
+   "pct_chg": 2.24,
+   "market_cap_usd_bn": 180.5,
    "cap_method": "shares x close"
   },
   "TSMC": {
    "ticker": "TSM",
-   "close": 328.83,
+   "close": 342.34,
    "date": "2026-11-25",
    "prev_close": 349.2,
-   "pct_chg": -5.83,
-   "market_cap_usd_bn": 1705.5,
+   "pct_chg": -1.96,
+   "market_cap_usd_bn": 1775.5,
    "cap_method": "shares x close"
   },
   "Samsung Electronics": {
    "ticker": "005930.KS",
-   "close": 189400.0,
-   "date": "2026-11-24",
-   "prev_close": 177500.0,
-   "pct_chg": 6.7,
-   "market_cap_usd_bn": 916.3,
+   "close": 171300.0,
+   "date": "2026-11-26",
+   "prev_close": 170700.0,
+   "pct_chg": 0.35,
+   "market_cap_usd_bn": 830.3,
    "cap_method": "shares x close"
   },
   "Intel": {
    "ticker": "INTC",
-   "close": 51.06,
+   "close": 54.47,
    "date": "2026-11-25",
    "prev_close": 54.8,
-   "pct_chg": -6.82,
-   "market_cap_usd_bn": 271.4,
+   "pct_chg": -0.6,
+   "market_cap_usd_bn": 289.5,
    "cap_method": "shares x close"
   },
   "Micron": {
    "ticker": "MU",
-   "close": 564.2,
+   "close": 601.25,
    "date": "2026-11-25",
    "prev_close": 629.79,
-   "pct_chg": -10.41,
-   "market_cap_usd_bn": 638.3,
+   "pct_chg": -4.53,
+   "market_cap_usd_bn": 680.3,
    "cap_method": "shares x close"
   },
   "SK Hynix": {
    "ticker": "000660.KS",
-   "close": 1158000.0,
-   "date": "2026-11-24",
-   "prev_close": 1085000.0,
-   "pct_chg": 6.73,
-   "market_cap_usd_bn": 606.6,
+   "close": 1053000.0,
+   "date": "2026-11-26",
+   "prev_close": 1030000.0,
+   "pct_chg": 2.23,
+   "market_cap_usd_bn": 552.7,
    "cap_method": "shares x close"
   },
   "ASML": {
    "ticker": "ASML",
-   "close": 1260.115,
+   "close": 1303.08,
    "date": "2026-11-25",
    "prev_close": 1336.0601,
-   "pct_chg": -5.68,
-   "market_cap_usd_bn": 485.7,
+   "pct_chg": -2.47,
+   "market_cap_usd_bn": 502.2,
    "cap_method": "shares x close"
   },
   "Lam Research": {
    "ticker": "LRCX",
-   "close": 175.51,
+   "close": 185.01,
    "date": "2026-11-25",
    "prev_close": 196.16,
-   "pct_chg": -10.53,
-   "market_cap_usd_bn": 219.2,
+   "pct_chg": -5.68,
+   "market_cap_usd_bn": 231.1,
    "cap_method": "shares x close"
   },
   "Applied Materials": {
    "ticker": "AMAT",
-   "close": 297.29,
+   "close": 311.18,
    "date": "2026-11-25",
    "prev_close": 323.76,
-   "pct_chg": -8.18,
-   "market_cap_usd_bn": 235.9,
+   "pct_chg": -3.89,
+   "market_cap_usd_bn": 247.0,
    "cap_method": "shares x close"
   },
   "KLA": {
    "ticker": "KLAC",
-   "close": 126.59,
+   "close": 134.2,
    "date": "2026-11-25",
    "prev_close": 133.65,
-   "pct_chg": -5.28,
-   "market_cap_usd_bn": 164.9,
+   "pct_chg": 0.41,
+   "market_cap_usd_bn": 174.9,
    "cap_method": "shares x close"
   },
   "Cadence": {
    "ticker": "CDNS",
-   "close": 286.6,
+   "close": 294.89,
    "date": "2026-11-25",
    "prev_close": 296.6,
-   "pct_chg": -3.37,
-   "market_cap_usd_bn": 78.6,
+   "pct_chg": -0.58,
+   "market_cap_usd_bn": 80.9,
    "cap_method": "shares x close"
   },
   "Synopsys": {
    "ticker": "SNPS",
-   "close": 397.48,
+   "close": 405.09,
    "date": "2026-11-25",
    "prev_close": 414.82,
-   "pct_chg": -4.18,
-   "market_cap_usd_bn": 76.2,
+   "pct_chg": -2.35,
+   "market_cap_usd_bn": 77.6,
    "cap_method": "shares x close"
   },
   "Arista Networks": {
    "ticker": "ANET",
-   "close": 158.06,
+   "close": 163.99,
    "date": "2026-11-25",
    "prev_close": 168.56,
-   "pct_chg": -6.23,
-   "market_cap_usd_bn": 199.7,
+   "pct_chg": -2.71,
+   "market_cap_usd_bn": 207.2,
    "cap_method": "shares x close"
   },
   "Vertiv": {
    "ticker": "VRT",
-   "close": 166.33,
+   "close": 173.37,
    "date": "2026-11-25",
    "prev_close": 173.82,
-   "pct_chg": -4.31,
-   "market_cap_usd_bn": 64.0,
+   "pct_chg": -0.26,
+   "market_cap_usd_bn": 66.8,
    "cap_method": "shares x close"
   },
   "Alphabet": {
    "ticker": "GOOGL",
-   "close": 268.6,
+   "close": 273.1,
    "date": "2026-11-25",
    "prev_close": 279.05,
-   "pct_chg": -3.74,
-   "market_cap_usd_bn": 3302.2,
+   "pct_chg": -2.13,
+   "market_cap_usd_bn": 3357.5,
    "cap_method": "shares x close"
   },
   "Microsoft": {
    "ticker": "MSFT",
-   "close": 485.77,
+   "close": 489.93,
    "date": "2026-11-25",
    "prev_close": 496.13,
-   "pct_chg": -2.09,
-   "market_cap_usd_bn": 3607.4,
+   "pct_chg": -1.25,
+   "market_cap_usd_bn": 3638.3,
    "cap_method": "shares x close"
   },
   "Amazon": {
    "ticker": "AMZN",
-   "close": 243.21,
+   "close": 244.43,
    "date": "2026-11-25",
    "prev_close": 252.29,
-   "pct_chg": -3.6,
-   "market_cap_usd_bn": 2629.9,
+   "pct_chg": -3.12,
+   "market_cap_usd_bn": 2643.1,
    "cap_method": "shares x close"
   },
   "Meta": {
    "ticker": "META",
-   "close": 594.42,
+   "close": 609.89,
    "date": "2026-11-25",
    "prev_close": 589.82,
-   "pct_chg": 0.78,
-   "market_cap_usd_bn": 1519.5,
+   "pct_chg": 3.4,
+   "market_cap_usd_bn": 1559.0,
    "cap_method": "shares x close"
   },
   "Oracle": {
    "ticker": "ORCL",
-   "close": 102.54,
+   "close": 103.88,
    "date": "2026-11-25",
    "prev_close": 109.5,
-   "pct_chg": -6.36,
-   "market_cap_usd_bn": 319.7,
+   "pct_chg": -5.13,
+   "market_cap_usd_bn": 323.9,
    "cap_method": "shares x close"
   },
   "Alibaba": {
    "ticker": "BABA",
-   "close": 84.1501,
+   "close": 86.26,
    "date": "2026-11-25",
    "prev_close": 84.86,
-   "pct_chg": -0.84,
-   "market_cap_usd_bn": 209.3,
+   "pct_chg": 1.65,
+   "market_cap_usd_bn": 214.6,
    "cap_method": "shares x close"
   },
   "CoreWeave": {
    "ticker": "CRWV",
-   "close": 39.51,
+   "close": 42.57,
    "date": "2026-11-25",
    "prev_close": 42.605,
-   "pct_chg": -7.26,
-   "market_cap_usd_bn": 22.0,
+   "pct_chg": -0.08,
+   "market_cap_usd_bn": 23.7,
    "cap_method": "shares x close"
   }
  },
@@ -2733,13 +2733,19 @@
     "2026-11-24",
     7201.09,
     82435.99,
-    92.22
+    92.8066
    ],
    [
     "2026-11-25",
-    7082.17,
+    7182.78,
     83938.28,
-    92.22
+    92.45
+   ],
+   [
+    "2026-11-26",
+    7182.78,
+    83891.17,
+    92.45
    ]
   ]
  }
